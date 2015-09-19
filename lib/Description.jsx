@@ -45,7 +45,7 @@ var CenterFormatedDescription = Radium(React.createClass({
   },
   render: function() {
     return (
-      <FlexLayout width="100%" vertical primary="center" secondary="center" className="jeemix-description" background={this.props.background}>
+      <FlexLayout width="100%" vertical primary="center" secondary="center" className="jeemix-description" background={this.props.background} style={{paddingBottom: "20px"}}>
         <h2 style={{marginBottom: "60px", color: this.props["title-color"]}} className="mdl-typography--display-2 jeemix-description--title jeemix-description--center">{this.props.title}</h2>
         <FlexLayout wrap horizontal primary="space-around" secondary="center">
           <img src={this.props.img} style={this.props["img-style"]} className="jeemix-description--image"/>
@@ -75,7 +75,7 @@ var LeftFormatedDescription = Radium(React.createClass({
   },
   render: function() {
     return (
-      <FlexLayout width="100%" horizontal primary="space-around" secondary="center" className="jeemix-description" wrap background={this.props.background}>
+      <FlexLayout width="100%" horizontal primary="space-around" secondary="center" className="jeemix-description" wrap background={this.props.background} style={{paddingBottom: "20px"}}>
         <FlexLayout vertical primary="center"
                     className={
                       classNames({
@@ -114,7 +114,7 @@ var RightFormatedDescription = Radium(React.createClass({
   },
   render: function() {
     return (
-      <FlexLayout width="100%" horizontal primary="space-around" secondary="center" className="jeemix-description" wrap-reverse background={this.props.background}>
+      <FlexLayout width="100%" horizontal primary="space-around" secondary="center" className="jeemix-description" wrap-reverse background={this.props.background} style={{paddingBottom: "20px"}}>
         <img src={this.props.img} style={this.props["img-style"]} className="jeemix-description--image"/>
         <FlexLayout vertical primary="center"
                     className={
