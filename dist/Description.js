@@ -63,7 +63,7 @@ var CenterFormatedDescription = (0, _radium2['default'])(_react2['default'].crea
   render: function render() {
     return _react2['default'].createElement(
       _reactLayoutHelpers.FlexLayout,
-      { width: '100%', vertical: true, primary: 'center', secondary: 'center', className: 'jeemix-description', background: this.props.background },
+      { width: '100%', vertical: true, primary: 'center', secondary: 'center', className: 'jeemix-description', background: this.props.background, style: { paddingBottom: "20px" } },
       _react2['default'].createElement(
         'h2',
         { style: { marginBottom: "60px", color: this.props["title-color"] }, className: 'mdl-typography--display-2 jeemix-description--title jeemix-description--center' },
@@ -101,7 +101,7 @@ var LeftFormatedDescription = (0, _radium2['default'])(_react2['default'].create
   render: function render() {
     return _react2['default'].createElement(
       _reactLayoutHelpers.FlexLayout,
-      { width: '100%', horizontal: true, primary: 'space-around', secondary: 'center', className: 'jeemix-description', wrap: true, background: this.props.background },
+      { width: '100%', horizontal: true, primary: 'space-around', secondary: 'center', className: 'jeemix-description', wrap: true, background: this.props.background, style: { paddingBottom: "20px" } },
       _react2['default'].createElement(
         _reactLayoutHelpers.FlexLayout,
         { vertical: true, primary: 'center',
@@ -147,7 +147,7 @@ var RightFormatedDescription = (0, _radium2['default'])(_react2['default'].creat
   render: function render() {
     return _react2['default'].createElement(
       _reactLayoutHelpers.FlexLayout,
-      { width: '100%', horizontal: true, primary: 'space-around', secondary: 'center', className: 'jeemix-description', 'wrap-reverse': true, background: this.props.background },
+      { width: '100%', horizontal: true, primary: 'space-around', secondary: 'center', className: 'jeemix-description', 'wrap-reverse': true, background: this.props.background, style: { paddingBottom: "20px" } },
       _react2['default'].createElement('img', { src: this.props.img, style: this.props["img-style"], className: 'jeemix-description--image' }),
       _react2['default'].createElement(
         _reactLayoutHelpers.FlexLayout,
