@@ -20,7 +20,7 @@ var SimpleDescription = Radium(React.createClass({
   },
   render: function() {
     return (
-      <FlexLayout width="100%" height={this.props.height} vertical primary="center" secondary="center" className="jeemix-description">
+      <FlexLayout width="100%" height={this.props.height} vertical primary="center" secondary="center" className="jeemix-description" style={{paddingBottom: "20px"}}>
         {this.props.title ? <h2 style={{marginBottom: "60px"}} className="mdl-typography--display-2 jeemix-description--title jeemix-description--center">{this.props.title}</h2> : undefined}
         <p style={{fontSize: "18px", lineHeight:"30px", textAlign: this.props.format, maxWidth: "80%"}} className="mdl-typography--body-1">{this.props.children}</p>
       </FlexLayout>

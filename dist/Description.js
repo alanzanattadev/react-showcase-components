@@ -34,7 +34,7 @@ var SimpleDescription = (0, _radium2['default'])(_react2['default'].createClass(
   render: function render() {
     return _react2['default'].createElement(
       _reactLayoutHelpers.FlexLayout,
-      { width: '100%', height: this.props.height, vertical: true, primary: 'center', secondary: 'center', className: 'jeemix-description' },
+      { width: '100%', height: this.props.height, vertical: true, primary: 'center', secondary: 'center', className: 'jeemix-description', style: { paddingBottom: "20px" } },
       this.props.title ? _react2['default'].createElement(
         'h2',
         { style: { marginBottom: "60px" }, className: 'mdl-typography--display-2 jeemix-description--title jeemix-description--center' },
